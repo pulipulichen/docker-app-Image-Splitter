@@ -1,0 +1,34 @@
+{
+  "name": "docker-app-Image-Cropper",
+  "version": "1.0.0",
+  "description": "Crop an image.",
+  "main": "index.js",
+  "scripts": {
+    "start": "sudo docker compose up --build",
+    "commit-docker-image": "sudo docker compose build; bash ./docker-build/image/commit-docker-image.sh",
+    "d0.build": "sudo docker compose build",
+    "d1.bash": "sudo docker compose run app bash",
+    "update": "node update.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pulipuli.chen@gmail.com@github.com/pulipulichen/docker-app-Image-Cropper.git"
+  },
+  "keywords": [
+    "Docker-APP",
+    "ImageMagick"
+  ],
+  "author": {
+    "name": "Yung-Ting Chen",
+    "email": "blog@pulipuli.info",
+    "orcid": "https://orcid.org/0000-0003-3751-610X",
+    "url": "https://blog.pulipuli.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pulipulichen/docker-app-Image-Cropper/issues"
+  },
+  "homepage": "https://github.com/pulipulichen/docker-app-Image-Cropper#readme",
+  "dependencies": {
+  }
+}
