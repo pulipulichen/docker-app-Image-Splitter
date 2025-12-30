@@ -1,9 +1,6 @@
 version: "3"
 services:
-  # user: "${UID}:${GID}"
+  user: "${UID}:${GID}"
   app:
     build: .
     tty: true
-    volumes:
-      - ./app:/app
-      - ./input:/input
