@@ -3,7 +3,7 @@
 # cd /tmp/docker-app-Image-Trim/
 # /tmp/docker-app-Image-Trim/s.sh
 
-PROJECT_NAME=docker-app-Image-Cropper
+PROJECT_NAME=docker-app-Image-Splitter
 
 # =================================================================
 
